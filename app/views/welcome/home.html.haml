@@ -1,8 +1,9 @@
-%nav.navbar.navbar-expand-lg.navbar-light.bg-light
+-# NAVIGATION 
+%nav.navbar.navbar-expand-lg.navbar-light
   .container-fluid
-    %a.navbar-brand.logo-large{:href => "#"} Benz Parts
     %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-bs-target" => "#navbarSupportedContent", "data-bs-toggle" => "collapse", :type => "button"}
       %span.navbar-toggler-icon
+    %a.navbar-brand#logo-large{:href => "#"} Benz Parts
     #navbarSupportedContent.collapse.navbar-collapse
       %form.d-flex
         %input.form-control.me-2{"aria-label" => "Search", :placeholder => "Search", :type => "search"}/
@@ -41,7 +42,8 @@
               %a.dropdown-item{:href => "#"} View Account
             %li
               %a.dropdown-item{:href => "#"} Sign In 
-    %i.fa.fa-shopping-cart{"aria-hidden" => "true"}
+    %i.fa.fa-shopping-cart{"aria-hidden" => "true"} 
+    
 
          
 
