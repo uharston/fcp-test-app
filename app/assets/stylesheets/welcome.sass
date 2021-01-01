@@ -2,6 +2,8 @@ $primary: white
 $breakpoint-sm: 576px
 $breakpoint-md: 768px
 $breakpoint-lg: 992px
+$breakpoint-fcp-sm: 639px 
+$breakpoint-fcp-lg: 1024px
 $breakpoint-xl: 1200px
 $breakpoint-xxl: 1400px
 $soft-white: #f5f5f5
@@ -11,12 +13,17 @@ $faded: rgba(255,255,255,0.5)
 $light-grey: #687475
 
 
-body 
+
+
+html, body
     background-color: white 
+    font-family: 'Quicksand', sans-serif !important
 
 .navigation-container 
     width: 100%
     display: inherit
+    background-color: white !important
+    
 .navigation-fluid
     display: flex
     flex-wrap: inherit
@@ -31,6 +38,7 @@ body
 #logo-large 
     font-size: 20px
     margin: 5px 10px 0px 10px
+    
 .right-side 
     display: flex
     width: 100%
@@ -110,6 +118,9 @@ body
     height: 38rem
     padding: 0px 20px
 
+.second-row-blogs
+    height: 35rem
+
 .blog-post-title 
     padding: 20px 0px
 
@@ -122,6 +133,7 @@ body
 .sales-service-kits 
     padding: 5px
 .story-section
+    margin: 0px 30px
     padding: 80px 0px
     background-image: image-url('/assets/garage.jpg');
     color: $off-white
@@ -236,6 +248,10 @@ body
 
     .footer-list 
         text-align: left 
+
+@media(min-width: $breakpoint-xxl - 100) 
+    .sales-section 
+        padding: 0px 57px 30px 75px
 
 
     
