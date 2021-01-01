@@ -150,11 +150,12 @@
 -# FOOTER 
 
 .footer 
-  .container 
+  .container-fluid
     .row 
-      .col.col-md-6.col-lg-3
-        %h1 Benz Parts 
-        %p Get help answering any questions you have 
+      .col-12.col-md-6.col-lg-3
+        .footer-logo-box
+          %h1 Benz Parts 
+          %p Get help answering any questions you have 
         .footer-contact-us-box 
           .contact-us-text
             %span Contact Us 
@@ -163,9 +164,9 @@
           %i.fa.fa-shopping-cart.footer-social-links{"aria-hidden" => "true"} 
           %i.fa.fa-shopping-cart.footer-social-links{"aria-hidden" => "true"}
           %i.fa.fa-shopping-cart.footer-social-links{"aria-hidden" => "true"} 
-      .col.col-md-6.col-lg-3 
-        %h4 Customer Service
-        %ul 
+      .col-12.col-md-6.col-lg-3
+        %ul.footer-list
+          %h5.footer-list-title Customer Service 
           %li Contact Us 
           %li Order Status & Tracking 
           %li Returns & Exchanges
@@ -173,21 +174,23 @@
           %li Shipping Policy 
           %li Deals & Coupons
           %li FAQ
-      .col.col-md-6.col-lg-3 
-        %i.fa.fa-envelope{"aria-hidden" => "true"}
-        %span Special offers, news, & promos 
+      .col-12.col-md-6.col-lg-3.order-2.order-md-1.order-lg-2
+        .footer-email-title 
+          %i.fa.fa-envelope{"aria-hidden" => "true"}
+          %span Special offers, news, & promos 
         %form 
-          %input 
-          %button Sign Up 
+          %input.form-control#footer-form-input
+          %button#footer-form-btn.btn.btn-primary Sign Up 
         .footer-ratings-box 
           %i.fa.fa-star-o{"aria-hidden" => "true"}
           %i.fa.fa-star-o{"aria-hidden" => "true"}
           %i.fa.fa-star-o{"aria-hidden" => "true"}
           %i.fa.fa-star-o{"aria-hidden" => "true"}
           %i.fa.fa-star-o{"aria-hidden" => "true"}
-      .col.col-md-6.col-lg-3 
-        %h4 About FCP Euro 
-        %ul 
+      .col-12.col-md-6.col-lg-3.order-1.order-md-2.order-lg-1
+        
+        %ul.footer-list
+          %h5.footer-list-title About FCP Euro 
           %li About Us
           %li Privacy Policy 
           %li DIY Blog
