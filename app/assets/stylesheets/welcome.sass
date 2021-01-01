@@ -67,7 +67,8 @@ body
     display: none
 
 .sales-section 
-   padding: 0px 0px 30px 0px
+    width: 100%
+    padding: 0px 0px 30px 0px
 
 .sales-side-section 
     position: -webkit-sticky
@@ -81,12 +82,17 @@ body
 .extra-advertisements
     // display: none
 
+.sales-image-box 
+    padding: 0px !important
 
 .sales-image 
-    height: 70vh 
-    background-color: orange
+    width: 100%
+    object-fit: cover
 
-.blog-section h2, .blog-section h3 
+.blog-section 
+    padding: 0px 15px
+
+.blog-section h2, .blog-section h3, .blog-header
     color: $off-black
 
 .blog-section p 
@@ -203,6 +209,8 @@ body
         height: 40vh 
         background-color: blue
         margin: 5px
+    .sales-image-box 
+        padding: 0px 15px 0px 2px !important
     .footer-logo-box 
         text-align: left
     .footer-list 
