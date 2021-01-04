@@ -10,6 +10,7 @@ gem 'haml'
 gem 'font-awesome-sass'
 gem 'coffee-rails'
 gem 'pg'
+gem 'dotenv-rails'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
