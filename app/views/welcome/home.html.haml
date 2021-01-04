@@ -224,9 +224,7 @@
         .footer-email-title 
           %i.fa.fa-envelope{"aria-hidden" => "true"}
           %span Special offers, news, & promos 
-        %form 
-          %input.form-control#footer-form-input
-          %button#footer-form-btn.btn.btn-primary Sign Up 
+        = render 'subscriber_form'
         .footer-ratings-box 
           %i.fa.fa-star-o{"aria-hidden" => "true"}
           %i.fa.fa-star-o{"aria-hidden" => "true"}
