@@ -198,9 +198,12 @@
             %span Contact Us 
             %i.fa.fa-envelope{"aria-hidden" => "true"}
         .footer-social-links-box
-          %i.fab.fa-twitter.footer-social-links{"aria-hidden" => "true"} 
-          %i.fab.fa-github.footer-social-links{"aria-hidden" => "true"}
-          %i.fab.fa-linkedin.footer-social-links{"aria-hidden" => "true"} 
+          %a{href: "https://twitter.com/uriahharston", target: "_blank", class:"footer-social-links"}
+            %i.fab.fa-twitter.footer-social-links{"aria-hidden" => "true"} 
+          %a{href: "https://github.com/uharston/fcp-test-app", target: "_blank", class:"footer-social-links"}
+            %i.fab.fa-github.footer-social-links{"aria-hidden" => "true"}
+          %a{href: "https://linkedin.com/in/uriah-harston", target: "_blank", class:"footer-social-links"}
+            %i.fab.fa-linkedin.footer-social-links{"aria-hidden" => "true"} 
       .col-12.col-md-6.col-lg-3
         %ul.footer-list
           %h5.footer-list-title Customer Service 
@@ -224,7 +227,7 @@
           %i.far.fa-star.footer-rating-stars#star-5{"aria-hidden" => "true"}
       .col-12.col-md-6.col-lg-3.order-1.order-md-2.order-lg-1
         %ul.footer-list
-          %h5.footer-list-title About FCP Euro 
+          %h5.footer-list-title About Benz Parts
           %li About Us
           %li Privacy Policy 
           %li DIY Blog
