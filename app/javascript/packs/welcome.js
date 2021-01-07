@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function handleClick(e) {
         alert("Thank You For Subscribing!!")
-        formInput.value = "" 
+        // formInput.value = "" 
     }
 
 })
